@@ -13,6 +13,7 @@ body {
   background-color: var(--red--);
   background-image: url(images/bg-intro-desktop.png);
   color: #fff;
+  font-family: sans-serif;
 }
 
 /* Main Section  */
@@ -24,7 +25,17 @@ body {
 
 /* Content Section  */
 .content-section {
-  /* justify-self: center; */
+  padding: 10% 5%;
+}
+
+.site-title {
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.site-description {
+  line-height: 1.5;
 }
 
 /* Form Section  */
