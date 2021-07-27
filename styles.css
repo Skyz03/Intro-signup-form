@@ -38,8 +38,19 @@ body {
   line-height: 1.5;
 }
 
-/* Form Section  */
+/* Form Section start  */
 .form-section {
+  text-align: center;
+}
+
+.try-btn {
+  background-color: var(--blue--);
+  color: #fff;
+  padding: 3% 10%;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 1px 5px 1px black;
+  margin-bottom: 3%;
 }
 
 .attribution {
