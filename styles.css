@@ -83,10 +83,19 @@ input {
   border: 0;
   border-radius: 5px;
   margin-top: 2%;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 .terms-condition {
   color: var(--gray-blue--);
+  font-size: 0.7rem;
+}
+
+.term-word {
+  color: var(--red--);
+  font-weight: 900;
 }
 
 .attribution {
