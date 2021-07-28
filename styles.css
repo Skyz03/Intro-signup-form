@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 :root {
   --red--: hsl(0, 100%, 74%);
   --green--: hsl(154, 59%, 51%);
@@ -13,7 +15,7 @@ body {
   background-color: var(--red--);
   background-image: url(images/bg-intro-desktop.png);
   color: #fff;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Main Section  */
@@ -63,12 +65,13 @@ form {
   border-radius: 10px;
 }
 
-input,
-button {
-  text-align: left;
-  width: 100%;
-  padding: 3% 1%;
+input {
+  width: 90%;
+  padding: 3%;
   margin: 2%;
+  border-radius: 5px;
+  border: 1px solid var(--gray-blue--);
+  font-weight: 900;
 }
 
 .attribution {
