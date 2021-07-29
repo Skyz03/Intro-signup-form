@@ -132,4 +132,22 @@ input {
     text-align: center;
     padding-bottom: 10%;
   }
+
+  .try-btn {
+    padding: 5% 25%;
+  }
+
+  form {
+    margin-top: 5%;
+    max-width: 100%;
+    width: 90%;
+  }
+
+  input {
+    padding: 5% 3%;
+  }
+
+  .claim-btn {
+    padding: 5% 3%;
+  }
 }
