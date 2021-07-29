@@ -110,3 +110,26 @@ input {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 640px) {
+  #main-section {
+    flex-direction: column;
+  }
+
+  .content-section {
+    padding: 0;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .site-title {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5%;
+  }
+
+  .site-description {
+    text-align: center;
+    padding-bottom: 10%;
+  }
+}
