@@ -30,17 +30,20 @@
     <div class="form-section">
       <button class="try-btn"> Try it free 7 days then $20/mo. thereafter</button>
 
-      <form action="#">
+      <form action="#" novalidate>
+
         <input type="text" placeholder="First Name" required>
         <span></span>
+
         <input type="text" placeholder="Last Name" required>
         <span></span>
-        <input type="email" placeholder="Email Address" required>
+
+        <input type="email" id="mail" name="mail" placeholder="Email Address" required minlength="8">
+        <span class="error"></span>
         <span></span>
 
         <input type="password" placeholder="Password" required>
         <span></span>
-
 
         <button type="submit" class="claim-btn"> Claim your free trial</button>
 
