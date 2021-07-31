@@ -102,6 +102,32 @@ input {
   font-weight: 900;
 }
 
+/* CSS for Required eleement */
+
+input + span {
+  position: relative;
+}
+
+input + span::before {
+  position: absolute;
+  left: 27.5rem;
+  bottom: 60px;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:invalid + span::before {
+  content: url(images/icon-error.svg);
+  color: red;
+}
+
+input:valid + span::before {
+  content: "✓";
+  color: green;
+}
+
 /* Attribute Section  */
 .attribution {
   font-size: 11px;
