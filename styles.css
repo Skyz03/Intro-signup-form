@@ -110,8 +110,8 @@ input + span {
 
 input + span::before {
   position: absolute;
-  left: 30vw;
-  bottom: 62px;
+  left: 28vw;
+  bottom: 2rem;
 }
 
 input:invalid {
@@ -146,11 +146,12 @@ input:valid + span::before {
   width: 100%;
   padding: 0;
   font-size: 80%;
-  color: white;
-  background-color: #900;
-  border-radius: 0 0 5px 5px;
+  color: #f00;
   box-sizing: border-box;
   display: inline-block;
+  position: relative;
+  bottom: 1rem;
+  left: 7rem;
 }
 
 .error.active {
