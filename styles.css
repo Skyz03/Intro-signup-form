@@ -110,8 +110,8 @@ input + span {
 
 input + span::before {
   position: absolute;
-  left: 28vw;
-  bottom: 2rem;
+  left: 25vw;
+  bottom: 1.3rem;
 }
 
 input:invalid {

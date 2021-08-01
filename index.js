@@ -3,7 +3,7 @@
 const form = document.getElementsByTagName('form')[0];
 
 const email = document.getElementById('mail');
-const emailError = document.querySelector('#mail + span.error');
+const emailError = document.querySelector('#mail + .error');
 
 
 email.addEventListener('input', function (event) {
