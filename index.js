@@ -52,3 +52,17 @@ function showError() {
     emailError.className = 'error active';
 
 }
+
+
+// Loop Start 
+let numberOfInputs = document.querySelectorAll(".form-input").length;
+
+for (let i = 0; i < numberOfInputs; i++) {
+
+    document.querySelectorAll(".form-input")[i].addEventListener("click", function () {
+
+        alert("Got clicked");
+
+    });
+
+}
