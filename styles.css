@@ -110,8 +110,8 @@ input + span {
 
 input + span::before {
   position: absolute;
-  left: 25vw;
-  bottom: 1.3rem;
+  left: 20vw;
+  bottom: 1.7rem;
 }
 
 input:invalid {
@@ -150,8 +150,8 @@ input:valid + span::before {
   box-sizing: border-box;
   display: inline-block;
   position: relative;
-  bottom: 1rem;
-  left: 7rem;
+  bottom: 0.5rem;
+  left: 10rem;
 }
 
 .error.active {
@@ -219,5 +219,23 @@ input:valid + span::before {
 
   .claim-btn {
     padding: 5% 3%;
+  }
+
+  .error {
+    width: 100%;
+    padding: 0;
+    font-size: 80%;
+    color: #f00;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    bottom: 0.5rem;
+    left: 3rem;
+  }
+
+  input + span::before {
+    position: absolute;
+    left: 50vw;
+    bottom: 1.5rem;
   }
 }
