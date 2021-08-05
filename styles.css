@@ -8,28 +8,30 @@
   --gray-blue--: hsl(246, 25%, 77%);
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  margin: 5%;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
   background-color: var(--red--);
   background-image: url(images/bg-intro-desktop.png);
   color: #fff;
-}
-
-/* Main Container Section  */
-#main-section {
   display: flex;
-  flex-direction: row;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 /* Content Left Section  */
 .content-section {
-  padding: 10% 5%;
-  width: 50%;
-  margin-right: 5%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .site-title {
@@ -44,7 +46,11 @@ body {
 
 /* Form Right Section  */
 .form-section {
-  text-align: left;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .try-btn {
