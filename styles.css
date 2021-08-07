@@ -131,8 +131,8 @@ input + span {
 
 input + span::before {
   position: absolute;
-  left: 20vw;
-  bottom: 1.7rem;
+  right: 1rem;
+  bottom: 0.8rem;
 }
 
 input:invalid {
@@ -141,7 +141,6 @@ input:invalid {
 
 input:invalid + span::before {
   content: url(images/icon-error.svg);
-  color: red;
 }
 
 input:valid + span::before {
