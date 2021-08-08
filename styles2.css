@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./images/bg-intro-desktop.png) center hsl(0, 100%, 74%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.details {
+  background-color: hsl(249, 10%, 26%);
+  padding: 1rem;
+  box-shadow: inset -3px 3px 20px rgb(0 0 0 / 70%), -2px 2px 12px rgb(0 0 0);
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style-image: url(./images/icon-check.svg);
+  padding: 1rem;
+  list-style-position: outside;
+}
+
+li {
+  margin-top: 0.5rem;
+  color: hsl(246, 25%, 77%);
+  font-family: monospace;
+  font-weight: 600;
+}
+
+button {
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+  background-color: bisque;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: rgb(83, 148, 83);
+  color: #fff;
+}

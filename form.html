@@ -8,14 +8,14 @@
     <title> Submitted Intro component with sign up form </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styles2.css">
 </head>
 
 <body>
 
     <body>
         <div class="details">
-            <h3>Your Details</h3>
+            <h3>Your Submitted Details:</h3>
             <ul>
 
             </ul>
@@ -23,7 +23,22 @@
         <button onclick="goBack()">Back</button>
     </body>
 
-    <script src=""></script>
+
+    <script>
+        const list = document.querySelector("ul")
+        new URLSearchParams(window.location.search).forEach((value, name) => {
+            let inputName = name.toUpperCase()
+            let li = document.createElement("li")
+            let liTextNode = `${inputName} : ${value}`
+            li.append(liTextNode)
+            list.appendChild(li)
+        })
+        // function to return back to form interface
+        function goBack() {
+            window.history.back()
+        }
+    </script>
+
 </body>
 
 </html>
