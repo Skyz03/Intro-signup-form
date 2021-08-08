@@ -15,17 +15,17 @@
 }
 
 body {
-  min-height: 100vh;
   font-family: "Poppins", sans-serif;
   background-color: var(--red--);
   background-image: url(images/bg-intro-desktop.png);
   color: #fff;
 }
 
-#main-section {
+.main-section {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  min-height: 100vh;
 }
 
 /* Content Left Section  */
@@ -139,12 +139,17 @@ input:invalid {
   border: 2px solid red;
 }
 
+input:valid {
+  border: 2px solid green;
+}
+
 input:invalid + span::before {
   content: url(images/icon-error.svg);
 }
 
 input:valid + span::before {
   content: "✓";
+  transform: scale(2);
   color: green;
 }
 
