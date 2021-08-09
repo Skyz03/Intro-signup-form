@@ -116,6 +116,7 @@ input {
 .terms-condition {
   color: var(--gray-blue--);
   font-size: 0.7rem;
+  margin-top: 1rem;
 }
 
 .term-word {
@@ -191,7 +192,7 @@ input:valid + span::before {
     background-image: url(images/bg-intro-mobile.png);
   }
 
-  #main-section {
+  .main-section {
     flex-direction: column;
   }
 
@@ -212,6 +213,13 @@ input:valid + span::before {
     padding-bottom: 10%;
   }
 
+  .form-section {
+    width: 100vw;
+    max-width: 500px;
+    padding: 1rem;
+    text-align: center;
+  }
+
   .try-btn {
     padding: 5% 25%;
   }
@@ -222,29 +230,9 @@ input:valid + span::before {
     width: 90%;
   }
 
-  input {
-    padding: 5% 3%;
-  }
-
-  .claim-btn {
-    padding: 5% 3%;
-  }
-
-  .error {
-    width: 100%;
-    padding: 0;
-    font-size: 80%;
-    color: #f00;
-    box-sizing: border-box;
-    display: inline-block;
-    position: relative;
-    bottom: 0.5rem;
-    left: 3rem;
-  }
-
   input + span::before {
     position: absolute;
     left: 50vw;
-    bottom: 1.5rem;
+    bottom: 1rem;
   }
 }
